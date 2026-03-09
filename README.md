@@ -156,6 +156,13 @@ External validation: HMDD (miRNAs), CTD genes & CTD-pathways, GeneCards (genes),
 * **Class imbalance:** BRCA tumor downsampled to ~1.2× controls (see `4.*` notebook).
 * **Validation build:** scripts in `notebooks/1.*` pull and standardize HMDD/CTD/GeneCards/EWAS-ATLAS; pathway validation uses g:Profiler → CTD cross-reference.
 
+
+## **Interactive Benchmark Explorer:**  
+If you run the benchmarking pipeline provided in this repository, you can explore your generated results using the interactive benchmark explorer:  
+> **[Benchmark Explorer](https://github.com/CyrilleMesue/biomarker-benchmark-results-explorer)**  
+>  
+> The explorer allows interactive inspection of benchmark outputs including model performance metrics, feature selection results, heatmaps, and validation summaries.
+
 ---
 
 ## 📜 Citation
@@ -176,3 +183,4 @@ We thank the maintainers of **CTD, HMDD, GeneCards, EWAS-ATLAS, g:Profiler**, an
 ## ✉️ Contact
 
 For questions, issues, or collaboration requests, please open a GitHub issue or reach out to the corresponding author listed in the paper.
+
